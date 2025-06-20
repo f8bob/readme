@@ -9,14 +9,13 @@ IMPORTANT: That's pseudo-code of main logic but it doesn't mean that this code w
 
 1. [Task Description]
 2. [Project Structure]
-3. [Setup and Preparation]
-4. [Implementation]
+3. [Implementation]
    1. [Saving the Blocked Countries List (AJAX → JSON)]
    2. [Loading the List and Initialization in `ipCheck.php` 
    3. [Exceptions (GET Parameter, User-Agent, Constant)]
    4. [Blocking and IP Logging]
    5. [PQA Tests for Block Verification]
-5. [Development Recommendations]
+4. [Development Recommendations]
 
 ---
 
@@ -64,21 +63,6 @@ private/
 
 
 ```
-
-## Setup and Preparation
-
-1. **Create** the file `public_html/private/1.0/settings/blacklist/blocked_countries.json` with the following content:
-
-```json
-[]
-```
-
-2. **Ensure** the web server (PHP) has write permissions for:
-
-* `blocked_countries.json`
-* `blocked_ips.log`
-
----
 
 ## Implementation
 

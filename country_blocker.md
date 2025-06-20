@@ -37,7 +37,7 @@ Implement a mechanism to block users by country:
 
 ## Project Structure
 ```code
-build-core/
+includes/
 ├── assets/
 │   └── functions/
 │       └── VisitorInfo/
@@ -54,14 +54,13 @@ build-core/
 └── ws/
     └── ajax_blocked_countries.php        # AJAX endpoint to save list
 
-public_html/
-└── private/
-    ├── 1.0/
-    │   └── settings/
-    │       └── blacklist/
-    │           └── blocked_countries.json # stores JSON array of ISO codes
-    └── blacklist/
-        └── blocked_ips.log               # log of blocked IPs
+private/
+├── 1.0/
+│   └── settings/
+│       └── blacklist/
+│           └── blocked_countries.json # stores JSON array of ISO codes
+└── blacklist/
+  └── blocked_ips.log               # log of blocked IPs
 
 
 ```

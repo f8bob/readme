@@ -46,7 +46,7 @@ build-core/
 │   └── Security/
 │       └── ipCheck.php                   # handleRequest(), blockByCountry()
 ├── tests/
-│   └── test_blocked_ips.php              # PQA tests
+│   └── test_blocked_countries.php              # PQA tests
 ├── view/
 │   └── dashboard/
 │       └── pages/
